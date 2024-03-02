@@ -39,3 +39,5 @@ while true; do curl "localhost:5000/favorites"; sleep 2; done;
 ```
 
 Step 5 - Explore traces and logs in Elastic APM
+
+!alt Output ./img/APM.png
