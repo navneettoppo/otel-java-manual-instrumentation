@@ -12,7 +12,7 @@ OTEL_EXPORTER_OTLP_ENDPOINT
 OTEL_EXPORTER_OTLP_HEADERS
 ```
 
-Step 2 - Build the Docker image or you can download docker from ![alt docker pull navynyx/java-otel-manual-image:latest](https://hub.docker.com/repository/docker/navynyx/java-otel-manual-image/general)
+Step 2 - Build the Docker image or you can download docker from ![ docker pull navynyx/java-otel-manual-image:latest](https://hub.docker.com/repository/docker/navynyx/java-otel-manual-image/general)
 ``` 
 docker build -t java-otel-manual-image .
 
