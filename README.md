@@ -8,13 +8,15 @@
 
 Note: We are integrating the OpenTelemetry agent directly with the Java application during the Docker build process.
 
-Step 1 - You will need to copy the following environment variables from Elastic APM 
+Step 1 - You will need to copy the following environment variables from Elastic APM.
+
        ```
        OTEL_EXPORTER_OTLP_ENDPOINT
        OTEL_EXPORTER_OTLP_HEADERS
        ```
 
-Step 2 - Edit Docker file and add below configuration to attach Opentelementry Java Agent after "mvn clean install"
+Step 2 - Edit Docker file and add below configuration to attach Opentelementry Java Agent after ```mvn clean install```.
+
        ```
        USER root
        RUN apt-get update && apt-get install -y zip curl
