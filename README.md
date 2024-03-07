@@ -36,7 +36,8 @@ Step 3 - Build the Docker image or you can download docker from ![ docker pull n
        docker pull navynyx/java-otel-manual-image:latest
        ```
 
-Step 4 - Run the Docker image
+Step 4 - Run the Docker image.
+
        ```
        docker run \
               -e OTEL_EXPORTER_OTLP_ENDPOINT="https://xxxxxxxxxxxxxxxxx.com:443" \
@@ -47,7 +48,8 @@ Step 4 - Run the Docker image
               java-otel-manual-image
        ```
 
-Step 5 - You can now issue a few requests in order to generate trace data
+Step 5 - You can now issue a few requests in order to generate trace data.
+
        ```
        curl localhost:5000/favorites
 
