@@ -24,7 +24,8 @@ Step 2 - Edit Docker file and add below configuration to attach Opentelementry J
        RUN curl -L -o /otel/opentelemetry-javaagent.jar https://github.com/open-telemetry/opentelemetry-java-instrumentation/releases/download/v1.28.0/opentelemetry-javaagent.jar
        ```
 
-Step 3 - Build the Docker image or you can download docker from ![ docker pull navynyx/java-otel-manual-image:latest](https://hub.docker.com/repository/docker/navynyx/java-otel-manual-image/general)
+Step 3 - Build the Docker image or you can download docker from ![ docker pull navynyx/java-otel-manual-image:latest](https://hub.docker.com/repository/docker/navynyx/java-otel-manual-image/general).
+
        ``` 
        docker build -t java-otel-manual-image .
        docker login
